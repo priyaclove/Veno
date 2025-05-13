@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "title": "Payroll Services",
+    "description": "Punctual and precise payroll delivery significantly impacts employee morale and performance. Given that this essential task may not offer a competitive advantage, outsourcing it is ideal since the resources required for an in-house payroll function may not outweigh its benefits."
+  },
+  "services": [
+    {
+      "title": "Flexible and Scalable Payroll Outsourcing",
+      "description": "Venovox offers flexible payroll outsourcing services that can be tailored and adjusted to meet the specific needs of your business, regardless of its size.",
+      "features": [
+        "We handle every payroll process your business encounters",
+        "Ensure compliance with all regulations",
+        "Relieve your company from payroll responsibilities",
+        "Fully outsourced solutions for maximum benefit"
+      ],
+      "icon": "💼"
+    },
+    {
+      "title": "Professional Employer Organization Services",
+      "description": "A resourceful outsourcing service that enables employers to gain economies of scale by offering a wide range of benefit options at competitive rates.",
+      "features": [
+        "Administration benefits",
+        "Recruitment and hiring services",
+        "Payroll administration",
+        "Administration of employees' compensation",
+        "Compliance assistance",
+        "Drug testing programs"
+      ],
+      "icon": "🏢"
+    }
+  ],
+  "peoBenefits": {
+    "title": "What Is a Professional Employer Organization?",
+    "description": "Our Professional Employer Organization (PEO) provides comprehensive HR outsourcing services along with tailored HR guidance.",
+    "benefits": [
+      {
+        "title": "Dedicated HR Expertise",
+        "description": "Support From a Team of Professionals",
+        "icon": "👥"
+      },
+      {
+        "title": "Tailored Solutions for Your Business",
+        "description": "Irrespective of the size of your workforce, our HR solutions are designed to expand alongside your business.",
+        "icon": "📊"
+      },
+      {
+        "title": "Excellence in HR Technology",
+        "description": "The right Technology to Support Your HR Processes with powerful analytics.",
+        "icon": "💻"
+      }
+    ]
+  },
+  "consulting": {
+    "title": "HR Consulting Services (for SMEs)",
+    "description": "When it comes to simplifying HR, having a reliable source of assistance for urgent matters is crucial.",
+    "features": [
+      {
+        "title": "Dedicated Support from Your HR Professional",
+        "description": "Our seasoned HR specialist will familiarise themselves with you and your business."
+      },
+      {
+        "title": "Legislative and Regulatory Resource",
+        "description": "We keep you informed with proactive updates on federal and state business laws."
+      },
+      {
+        "title": "Company Culture Development",
+        "description": "Developing suitable policies and procedures that align with your company culture."
+      }
+    ]
+  },
+  "employeeServices": [
+    {
+      "title": "Help with Benefits and Enrolment Meetings",
+      "description": "We facilitate connections with relevant experts to ensure you find perfect solutions.",
+      "icon": "🩺"
+    },
+    {
+      "title": "Simplified Hiring Process",
+      "description": "Our team provides guidance across various stages of the employee lifecycle.",
+      "icon": "👔"
+    },
+    {
+      "title": "Manager and Employee Training",
+      "description": "We support your business in formulating a results-driven, long-term learning strategy.",
+      "icon": "🎓"
+    }
+  ]
+}

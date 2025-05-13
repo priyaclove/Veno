@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "title": "Security Management Training",
+    "description": "Security Management refers to the utilization of technology for safeguarding networks, systems, and data against unauthorized entry, malevolent assaults, and various forms of security risks.",
+    "icon": "🔐"
+  },
+  {
+    "id": 2,
+    "title": "Business Intelligence and Analytics",
+    "description": "Involves tools to gather, organize, and interpret data for business decisions, enabling insights and social media impact.",
+    "icon": "📊"
+  },
+  {
+    "id": 3,
+    "title": "Executive Protection",
+    "description": "Security measures to protect VIPs and high-risk individuals in the private security sector.",
+    "icon": "🕶️"
+  },
+  {
+    "id": 4,
+    "title": "Emergency Response Planning / Management",
+    "description": "Equips ERTs with skills to manage emergencies and implement Incident Command System (ICS).",
+    "icon": "🚨"
+  },
+  {
+    "id": 5,
+    "title": "Effective Security Officer Training",
+    "description": "Trains individuals in communication, emergency response, access control, and ethics.",
+    "icon": "👮‍♂️"
+  },
+  {
+    "id": 6,
+    "title": "Corporate Intelligence",
+    "description": "Collects and analyzes business and competitor info to support strategy decisions.",
+    "icon": "🧠"
+  },
+  {
+    "id": 7,
+    "title": "Fraud and Loss Prevention",
+    "description": "Protects against business fraud and loss through quality assurance and information security.",
+    "icon": "💼"
+  },
+  {
+    "id": 8,
+    "title": "The Art of Investigative Interviews",
+    "description": "Focuses on interviewing skills for investigation contexts.",
+    "icon": "🗣️"
+  },
+  {
+    "id": 9,
+    "title": "Workplace Investigations",
+    "description": "Teaches proper methods for handling misconduct and legislative adherence.",
+    "icon": "🏢"
+  },
+  {
+    "id": 10,
+    "title": "Physical Security Professional",
+    "description": "Covers physical security systems, design, and risk analysis.",
+    "icon": "🛡️"
+  },
+  {
+    "id": 11,
+    "title": "Sexual Harassment in the Workplace",
+    "description": "Provides awareness and strategies to prevent harassment at work.",
+    "icon": "🚫"
+  },
+  {
+    "id": 12,
+    "title": "Grievance and Domestic Inquiry",
+    "description": "Supports HR professionals in managing grievances and employee relations.",
+    "icon": "📋"
+  },
+  {
+    "id": 13,
+    "title": "Lodging Security Program",
+    "description": "Focuses on hotel guest and staff safety, room security, and emergency response.",
+    "icon": "🏨"
+  },
+  {
+    "id": 14,
+    "title": "Security Risk Management",
+    "description": "Covers threat assessment and vulnerability analysis.",
+    "icon": "⚠️"
+  },
+  {
+    "id": 15,
+    "title": "Industrial Security Program",
+    "description": "Protects classified information and contractor security practices.",
+    "icon": "🏭"
+  },
+  {
+    "id": 16,
+    "title": "Hazardous Substance and Bomb Threat Training",
+    "description": "Teaches handling hazardous threats and minimizing business disruption.",
+    "icon": "💣"
+  },
+  {
+    "id": 17,
+    "title": "Aviation and Airport Security",
+    "description": "Covers aviation security laws and risk management.",
+    "icon": "✈️"
+  },
+  {
+    "id": 18,
+    "title": "Cargo Theft, Loss Prevention, and Supply Chain Security",
+    "description": "Secures cargo, improves documentation and logistics safety.",
+    "icon": "📦"
+  },
+  {
+    "id": 19,
+    "title": "Casino and Gaming Physical Security Management",
+    "description": "Protects casinos from theft and misconduct in high-traffic areas.",
+    "icon": "🎰"
+  }
+]

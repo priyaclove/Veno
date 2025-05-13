@@ -1,0 +1,189 @@
+[
+    {
+      "id": 1,
+      "slug": "prevent-criminal-activities",
+      "title": "Stay One Step Ahead: Prevent Criminal Activities in Your Rented Properties",
+      "excerpt": "Recent headlines show a worrying trend of rented properties being linked to criminal activities.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2025-01-17",
+      "image": "/dummy-image.jpg",
+      "tags": ["Property", "Security"]
+    },
+    {
+      "id": 2,
+      "slug": "corruption-due-diligence-malaysia",
+      "title": "The Unholy Marriage of Corruption & Due Diligence in Malaysia",
+      "excerpt": "Malaysia’s meme calendar honoured an entrepreneur couple entangled in a major scandal.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2025-01-17",
+      "image": "/dummy-image.jpg",
+      "tags": ["Corruption", "Due Diligence"]
+    },
+    {
+      "id": 3,
+      "slug": "malaysian-employment-outlook-2025",
+      "title": "Malaysian Employment Outlook 2025: Stability Amid Global Challenges",
+      "excerpt": "Manpower Group’s survey of 10,095 employers shows signs of stability across APAC.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2025-01-17",
+      "image": "/dummy-image.jpg",
+      "tags": ["Employment", "Malaysia", "2025"]
+    },
+    {
+      "id": 4,
+      "slug": "global-security-landscape-2025",
+      "title": "Global Security Landscape",
+      "excerpt": "The global security landscape in 2025 is expected to face a wide range of complex threats.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2025-01-17",
+      "image": "/dummy-image.jpg",
+      "tags": ["Security", "Global"]
+    },
+    {
+      "id": 5,
+      "slug": "malaysia-ai-governance-ethics",
+      "title": "MALAYSIA’S NATIONAL GUIDELINES ON AI GOVERNANCE AND ETHICS",
+      "excerpt": "On September 20, 2024, Malaysia introduced its national guidelines on AI governance.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2025-01-16",
+      "image": "/images/publications/ai-governance.jpg",
+      "tags": ["AI", "Ethics", "Malaysia"]
+    },
+    {
+      "id": 6,
+      "slug": "education-certificate-integrity",
+      "title": "Ensuring Academic Integrity: The Significance of Education Certificate Background Checks for Higher Education Institutions",
+      "excerpt": "Media buzzed over a student being expelled from the Perdana Fellow Programme.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2024-09-10",
+      "image": "/images/publications/education-integrity.jpg",
+      "tags": ["Education", "Integrity"]
+    },
+    {
+      "id": 7,
+      "slug": "interview-anxiety-impression-management",
+      "title": "Deceptive Impression Management (IM)",
+      "excerpt": "Many applicants fear becoming visibly nervous during interviews.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2024-09-10",
+      "image": "/images/publications/impression-management.jpg",
+      "tags": ["Interview", "HR"]
+    },
+    {
+      "id": 8,
+      "slug": "forgery-warning",
+      "title": "Forgery Unveiled: A Warning for Employers and Employees",
+      "excerpt": "Using forged documents is a criminal offense under Malaysia’s Penal Code.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2024-09-10",
+      "image": "/images/publications/forgery.jpg",
+      "tags": ["Forgery", "Law"]
+    },
+    {
+      "id": 9,
+      "slug": "teacher-jail-kota-kinabalu",
+      "title": "Pass Go, Do Not Collect $200, And Go Straight To Jail!",
+      "excerpt": "A teacher in Kota Kinabalu was arrested under unexpected circumstances.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2024-09-10",
+      "image": "/images/publications/teacher-jail.jpg",
+      "tags": ["Crime", "Education"]
+    },
+    {
+      "id": 10,
+      "slug": "background-screening-pros-cons",
+      "title": "Balancing Act: Exploring the Pros and Cons of Background Screenings for HR Professionals and Small Business Owners",
+      "excerpt": "Background screenings give a full picture of candidates, but also have drawbacks.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2024-09-10",
+      "image": "/images/publications/background-screening.jpg",
+      "tags": ["HR", "Background Check"]
+    },
+    {
+      "id": 11,
+      "slug": "privacy-law-today",
+      "title": "PRIVACY LAW TODAY",
+      "excerpt": "‘Privacy is not for sale, and human rights should not be compromised out of fear or greed’.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2024-09-10",
+      "image": "/images/publications/privacy-law.jpg",
+      "tags": ["Privacy", "Law"]
+    },
+    {
+      "id": 12,
+      "slug": "pdpa-2024-review",
+      "title": "2024 Review on Possible Changes to the PDPA",
+      "excerpt": "Review of Malaysia’s Personal Data Protection Act (PDPA) 2010.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2024-09-10",
+      "image": "/images/publications/pdpa-review.jpg",
+      "tags": ["PDPA", "Privacy"]
+    },
+    {
+      "id": 13,
+      "slug": "attitude-in-workplace",
+      "title": "ATTITUDES THAT ARE IMPORTANT IN WORKPLACES",
+      "excerpt": "A positive attitude is as crucial as experience or skills in the workplace.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2024-09-10",
+      "image": "/images/publications/workplace-attitude.jpg",
+      "tags": ["Workplace", "Attitude"]
+    },
+    {
+      "id": 14,
+      "slug": "combatting-corruption-workplace",
+      "title": "COMBATING CORRUPTION AT WORKPLACE",
+      "excerpt": "Policymakers and companies focus on mitigating the economic and social damage of corruption.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2024-09-10",
+      "image": "/images/publications/anti-corruption.jpg",
+      "tags": ["Corruption", "Workplace"]
+    },
+    {
+      "id": 15,
+      "slug": "sexual-harassment-workplace-malaysia",
+      "title": "SEXUAL HARASSMENT IN THE WORKPLACE – MALAYSIA (2024)",
+      "excerpt": "35% to 53% of women reported workplace sexual harassment in studies.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2024-09-10",
+      "image": "/images/publications/sexual-harassment.jpg",
+      "tags": ["Sexual Harassment", "Malaysia"]
+    },
+    {
+      "id": 16,
+      "slug": "risk-compliance-background-checks",
+      "title": "Risk and Compliance Management in Background Verification: Essential Strategies for Organizations",
+      "excerpt": "Verification ensures informed hiring and protects organizational reputation.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2024-09-10",
+      "image": "/images/publications/risk-compliance.jpg",
+      "tags": ["Compliance", "Risk Management"]
+    },
+    {
+      "id": 17,
+      "slug": "address-verification-trust",
+      "title": "Anchor of Trust: The Essential Role of Address Verification in Screening",
+      "excerpt": "Address verification is critical in today’s digital-first, borderless world.",
+      "content": "Full article content goes here...",
+      "author": "Admin",
+      "date": "2024-09-10",
+      "image": "/images/publications/address-verification.jpg",
+      "tags": ["Trust", "Address Verification"]
+    }
+  ]
