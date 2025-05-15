@@ -10,31 +10,32 @@ export default function PayrollPEOPage() {
   const sectionRefs = useRef<(HTMLElement | null)[]>([])
 
   useEffect(() => {
-    // Set up intersection observer for fade-in animations
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.remove("opacity-0", "translate-y-10")
-            entry.target.classList.add("opacity-100", "translate-y-0")
-            observer.unobserve(entry.target)
-          }
-        })
-      },
-      { threshold: 0.1 },
-    )
+  const currentRefs = sectionRefs.current; // ✅ local copy
 
-    // Observe all section refs
-    sectionRefs.current.forEach((ref) => {
-      if (ref) observer.observe(ref)
-    })
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.remove("opacity-0", "translate-y-10");
+          entry.target.classList.add("opacity-100", "translate-y-0");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
 
-    return () => {
-      sectionRefs.current.forEach((ref) => {
-        if (ref) observer.unobserve(ref)
-      })
-    }
-  }, [])
+  currentRefs.forEach((ref) => {
+    if (ref) observer.observe(ref);
+  });
+
+  return () => {
+    currentRefs.forEach((ref) => {
+      if (ref) observer.unobserve(ref);
+    });
+  };
+}, []);
+
 
   // Add section to refs array
   const addToRefs = (el: HTMLElement | null) => {

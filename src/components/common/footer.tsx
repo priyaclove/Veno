@@ -2,25 +2,35 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { MapPin, Mail, Phone } from "lucide-react";
+import {  Mail, Phone, Send } from "lucide-react";
 
 const Footer = () => {
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    // Add form submission logic here
+    alert("Message sent successfully!");
+  };
+
   return (
-    <footer className="px-6 md:px-12 py-16 md:py-24 bg-white border-t border-gray-100">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+    <footer className="bg-white border-t border-gray-200 px-6 py-12 md:py-16">
+      <div className="max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
           {/* Column 1: Quick Links */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
+            className="space-y-4"
           >
-            <h3 className="text-lg font-semibold mb-6">Quick Links</h3>
-            <ul className="space-y-4">
-              {["Home", "About Us", "Services", "Pricing", "Blog", "Contact"].map((link) => (
+            <h3 className="text-lg font-semibold text-gray-900">Quick Links</h3>
+            <ul className="space-y-3">
+              {["Home", "About", "Services", "Resources", "Careers", "Contact"].map((link) => (
                 <li key={link}>
-                  <Link href="#" className="text-gray-600 hover:text-red-700 transition-colors duration-200">
+                  <Link
+                    href="#"
+                    className="text-gray-600 hover:text-red-600 transition-colors duration-200 text-sm md:text-base"
+                  >
                     {link}
                   </Link>
                 </li>
@@ -34,19 +44,23 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
+            className="space-y-4"
           >
-            <h3 className="text-lg font-semibold mb-6">Services</h3>
-            <ul className="space-y-4">
+            <h3 className="text-lg font-semibold text-gray-900">Services</h3>
+            <ul className="space-y-3">
               {[
-                "Criminal Background Checks",
+                "Background Screening",
                 "Employment Verification",
-                "Education Verification",
-                "Credit Checks",
-                "Global Screening",
+                "Education Checks",
                 "Identity Verification",
+                "Global Compliance",
+                "Risk Assessment",
               ].map((service) => (
                 <li key={service}>
-                  <Link href="#" className="text-gray-600 hover:text-red-700 transition-colors duration-200">
+                  <Link
+                    href="#"
+                    className="text-gray-600 hover:text-red-600 transition-colors duration-200 text-sm md:text-base"
+                  >
                     {service}
                   </Link>
                 </li>
@@ -54,30 +68,40 @@ const Footer = () => {
             </ul>
           </motion.div>
 
-          {/* Column 3: Global Offices */}
+          {/* Column 3: Contact Information */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
+            className="space-y-4"
           >
-            <h3 className="text-lg font-semibold mb-6">Global Offices</h3>
-            <ul className="space-y-4">
-              {[
-                { city: "New York", address: "123 Broadway, NY 10001" },
-                { city: "London", address: "456 Oxford St, London W1C" },
-                { city: "Singapore", address: "78 Shenton Way, Singapore" },
-                { city: "Sydney", address: "90 Pitt Street, Sydney NSW" },
-              ].map((office) => (
-                <li key={office.city} className="flex">
-                  <MapPin className="h-5 w-5 text-red-700 mr-2 flex-shrink-0 mt-0.5" />
-                  <div>
-                    <span className="font-medium block">{office.city}</span>
-                    <span className="text-gray-500 text-sm">{office.address}</span>
-                  </div>
-                </li>
-              ))}
-            </ul>
+            <h3 className="text-lg font-semibold text-gray-900">Contact</h3>
+            <div className="space-y-3">
+              <div className="flex items-start">
+                <Phone className="h-5 w-5 text-red-600 mt-0.5 mr-2 flex-shrink-0" />
+                <div>
+                  <p className="text-gray-600 text-sm md:text-base">+1 (888) 123-4567</p>
+                  <p className="text-gray-400 text-xs mt-1">US Toll Free</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start">
+                <Phone className="h-5 w-5 text-red-600 mt-0.5 mr-2 flex-shrink-0" />
+                <div>
+                  <p className="text-gray-600 text-sm md:text-base">012 800 8888</p>
+                  <p className="text-gray-400 text-xs mt-1">Hotline (Local)</p>
+                </div>
+              </div>
+              
+              <div className="flex items-start">
+                <Mail className="h-5 w-5 text-red-600 mt-0.5 mr-2 flex-shrink-0" />
+                <div>
+                  <p className="text-gray-600 text-sm md:text-base">dato.devan@venovox.com</p>
+                  <p className="text-gray-600 text-sm md:text-base">kelly@venovox.com</p>
+                </div>
+              </div>
+            </div>
           </motion.div>
 
           {/* Column 4: Contact Form */}
@@ -86,37 +110,51 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.3 }}
+            className="space-y-4"
           >
-            <h3 className="text-lg font-semibold mb-6">Contact Us</h3>
-            <form className="space-y-4">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-red-700"
-                required
-              />
-              <textarea
-                placeholder="Your message"
-                rows={3}
-                className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-red-700"
-                required
-              ></textarea>
-              <button type="submit" className="w-full py-2 bg-red-700 text-white rounded-lg hover:bg-red-600 transition">
+            <h3 className="text-lg font-semibold text-gray-900">Send Message</h3>
+            <form onSubmit={handleSubmit} className="space-y-3">
+              <div>
+                <input
+                  type="text"
+                  placeholder="Your name"
+                  className="w-full px-4 py-2 rounded-md border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-transparent text-sm"
+                  required
+                />
+              </div>
+              <div>
+                <input
+                  type="email"
+                  placeholder="Your email"
+                  className="w-full px-4 py-2 rounded-md border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-transparent text-sm"
+                  required
+                />
+              </div>
+              <div>
+                <textarea
+                  placeholder="Your message"
+                  rows={3}
+                  className="w-full px-4 py-2 rounded-md border border-gray-300 focus:ring-2 focus:ring-red-600 focus:border-transparent text-sm"
+                  required
+                />
+              </div>
+              <button
+                type="submit"
+                className="w-full flex items-center justify-center py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors duration-200 text-sm font-medium"
+              >
+                <Send className="h-4 w-4 mr-2" />
                 Send Message
               </button>
             </form>
-
-            <div className="mt-6">
-              <div className="flex items-center mb-2">
-                <Mail className="h-5 w-5 text-red-700 mr-2" />
-                <span className="text-gray-600">contact@venovox.com</span>
-              </div>
-              <div className="flex items-center">
-                <Phone className="h-5 w-5 text-red-700 mr-2" />
-                <span className="text-gray-600">+1 (888) 123-4567</span>
-              </div>
-            </div>
+            <p className="text-gray-500 text-xs mt-2">
+              No need for email addresses anywhere. The form is sufficient.
+            </p>
           </motion.div>
+        </div>
+
+        {/* Copyright Section */}
+        <div className="border-t border-gray-200 mt-12 pt-8 text-center text-gray-500 text-sm">
+          <p>© {new Date().getFullYear()} Venovox. All rights reserved.</p>
         </div>
       </div>
     </footer>

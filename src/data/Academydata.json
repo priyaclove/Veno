@@ -1,116 +1,817 @@
-[
-  {
-    "id": 1,
-    "title": "Security Management Training",
-    "description": "Security Management refers to the utilization of technology for safeguarding networks, systems, and data against unauthorized entry, malevolent assaults, and various forms of security risks.",
-    "icon": "🔐"
-  },
-  {
-    "id": 2,
-    "title": "Business Intelligence and Analytics",
-    "description": "Involves tools to gather, organize, and interpret data for business decisions, enabling insights and social media impact.",
-    "icon": "📊"
-  },
-  {
-    "id": 3,
-    "title": "Executive Protection",
-    "description": "Security measures to protect VIPs and high-risk individuals in the private security sector.",
-    "icon": "🕶️"
-  },
-  {
-    "id": 4,
-    "title": "Emergency Response Planning / Management",
-    "description": "Equips ERTs with skills to manage emergencies and implement Incident Command System (ICS).",
-    "icon": "🚨"
-  },
-  {
-    "id": 5,
-    "title": "Effective Security Officer Training",
-    "description": "Trains individuals in communication, emergency response, access control, and ethics.",
-    "icon": "👮‍♂️"
-  },
-  {
-    "id": 6,
-    "title": "Corporate Intelligence",
-    "description": "Collects and analyzes business and competitor info to support strategy decisions.",
-    "icon": "🧠"
-  },
-  {
-    "id": 7,
-    "title": "Fraud and Loss Prevention",
-    "description": "Protects against business fraud and loss through quality assurance and information security.",
-    "icon": "💼"
-  },
-  {
-    "id": 8,
-    "title": "The Art of Investigative Interviews",
-    "description": "Focuses on interviewing skills for investigation contexts.",
-    "icon": "🗣️"
-  },
-  {
-    "id": 9,
-    "title": "Workplace Investigations",
-    "description": "Teaches proper methods for handling misconduct and legislative adherence.",
-    "icon": "🏢"
-  },
-  {
-    "id": 10,
-    "title": "Physical Security Professional",
-    "description": "Covers physical security systems, design, and risk analysis.",
-    "icon": "🛡️"
-  },
-  {
-    "id": 11,
-    "title": "Sexual Harassment in the Workplace",
-    "description": "Provides awareness and strategies to prevent harassment at work.",
-    "icon": "🚫"
-  },
-  {
-    "id": 12,
-    "title": "Grievance and Domestic Inquiry",
-    "description": "Supports HR professionals in managing grievances and employee relations.",
-    "icon": "📋"
-  },
-  {
-    "id": 13,
-    "title": "Lodging Security Program",
-    "description": "Focuses on hotel guest and staff safety, room security, and emergency response.",
-    "icon": "🏨"
-  },
-  {
-    "id": 14,
-    "title": "Security Risk Management",
-    "description": "Covers threat assessment and vulnerability analysis.",
-    "icon": "⚠️"
-  },
-  {
-    "id": 15,
-    "title": "Industrial Security Program",
-    "description": "Protects classified information and contractor security practices.",
-    "icon": "🏭"
-  },
-  {
-    "id": 16,
-    "title": "Hazardous Substance and Bomb Threat Training",
-    "description": "Teaches handling hazardous threats and minimizing business disruption.",
-    "icon": "💣"
-  },
-  {
-    "id": 17,
-    "title": "Aviation and Airport Security",
-    "description": "Covers aviation security laws and risk management.",
-    "icon": "✈️"
-  },
-  {
-    "id": 18,
-    "title": "Cargo Theft, Loss Prevention, and Supply Chain Security",
-    "description": "Secures cargo, improves documentation and logistics safety.",
-    "icon": "📦"
-  },
-  {
-    "id": 19,
-    "title": "Casino and Gaming Physical Security Management",
-    "description": "Protects casinos from theft and misconduct in high-traffic areas.",
-    "icon": "🎰"
-  }
-]
+{
+  "academyServices": [
+    {
+      "slug": "training-programs",
+      "title": "Comprehensive Training Programs",
+      "seoTitle": "Comprehensive HR Training Programs in Malaysia | Employment Consultancy",
+      "seoDescription": "Customised HR training programs for Malaysian businesses. Enhance workforce capabilities, improve compliance, and develop talent with our professional training solutions.",
+      "estimatedReadTime": 4,
+      "lastUpdated": "2024-05-15T08:00:00Z",
+      "animationStyle": "fade-up",
+      "themeColors": {
+        "primary": "red-700",
+        "accent": "red-600",
+        "background": "white",
+        "text": "gray-700"
+      },
+      "sections": [
+        {
+          "id": "hero-training",
+          "type": "hero",
+          "heading": "Elevate Your Workforce with Strategic Training Programs",
+          "subheading": "Customised learning solutions aligned with Malaysian business needs and regulatory requirements",
+          "content": "In today's competitive Malaysian business landscape, effective training programs are the cornerstone of organisational excellence. Our meticulously designed training solutions enhance employee competencies whilst ensuring compliance with Malaysian employment regulations.",
+          "ctaButton": {
+            "text": "Explore Our Training Solutions",
+            "href": "/contact"
+          }
+        },
+        {
+          "id": "intro-training",
+          "type": "text",
+          "heading": "Transformative Learning for Modern Workplaces",
+          "content": "Our training programs are strategically designed to address the unique challenges faced by businesses operating in Malaysia's diverse economy. Whether you're a multinational corporation with offices in Kuala Lumpur or a growing SME in Petaling Jaya, our programmes integrate industry best practices with local business culture and compliance requirements.\n\nEach training module undergoes rigorous development by seasoned HR professionals with extensive experience in Malaysian employment practices. We focus on practical, applicable skills that participants can immediately implement in their daily workflows, ensuring measurable improvements in productivity, compliance adherence, and employee satisfaction."
+        },
+        {
+          "id": "features-training",
+          "type": "features",
+          "heading": "Key Benefits of Our Training Programs",
+          "subheading": "Comprehensive solutions designed for Malaysian workplace contexts",
+          "features": [
+            {
+              "title": "Malaysian Compliance Focus",
+              "description": "All training programs incorporate current Malaysian employment laws, including the Employment Act revisions and Industrial Relations Act requirements."
+            },
+            {
+              "title": "Multilingual Delivery Options",
+              "description": "Training available in English, Bahasa Malaysia, and Mandarin to accommodate Malaysia's diverse workforce."
+            },
+            {
+              "title": "Industry-Specific Customisation",
+              "description": "Tailored content for key Malaysian industries including manufacturing, technology, finance, and hospitality sectors."
+            },
+            {
+              "title": "Blended Learning Approach",
+              "description": "Combination of face-to-face workshops, e-learning modules, and practical assessments for comprehensive skill development."
+            },
+            {
+              "title": "Measurable Outcomes",
+              "description": "Structured evaluation frameworks to track knowledge transfer and implementation effectiveness in your organisation."
+            }
+          ]
+        },
+        {
+          "id": "training-infographic",
+          "type": "infographic",
+          "heading": "Our Training Development Process",
+          "subheading": "A methodical approach to creating effective learning experiences",
+          "content": "Our training development follows a proven process that ensures relevance, engagement, and effectiveness for Malaysian organisations:",
+          "steps": [
+            {
+              "title": "Needs Assessment",
+              "description": "We identify specific skill gaps and learning requirements through thorough organisational analysis."
+            },
+            {
+              "title": "Custom Design",
+              "description": "Our instructional designers create targeted content aligned with Malaysian workplace practices."
+            },
+            {
+              "title": "Material Development",
+              "description": "We produce engaging, culturally appropriate learning resources for diverse Malaysian audiences."
+            },
+            {
+              "title": "Delivery",
+              "description": "Experienced facilitators conduct sessions using interactive, participant-centred methodologies."
+            },
+            {
+              "title": "Evaluation & Refinement",
+              "description": "We measure outcomes and continuously improve based on participant feedback and performance metrics."
+            }
+          ]
+        },
+        {
+          "id": "imageWithText-training",
+          "type": "imageWithText",
+          "heading": "Measurable Results Through Strategic Learning",
+          "subheading": "Driving performance improvements across Malaysian organisations",
+          "content": "Our training programs have delivered significant business impact for organisations throughout Malaysia. Clients typically report a 27% increase in productivity following our management training initiatives, and a 32% reduction in compliance-related issues after regulatory training implementation.\n\nA leading Malaysian electronics manufacturer in Penang achieved a 40% reduction in quality control issues after implementing our customised process improvement training. Similarly, a financial services provider in Kuala Lumpur reported a 25% increase in customer satisfaction scores following our customer service excellence program.\n\nOur approach emphasises practical application, with participants working on actual workplace challenges during training sessions, resulting in immediate implementation of solutions upon returning to their roles.",
+          "imagePosition": "right"
+        },
+        {
+          "id": "faq-training",
+          "type": "faq",
+          "heading": "Frequently Asked Questions",
+          "faqs": [
+            {
+              "question": "How are your training programs tailored to Malaysian business needs?",
+              "answer": "Our training programs incorporate Malaysian employment laws, cultural considerations, and industry-specific challenges. We conduct thorough needs assessments to understand your organisational context and develop content that addresses your specific requirements while ensuring compliance with local regulations."
+            },
+            {
+              "question": "Can you accommodate different language preferences for our diverse workforce?",
+              "answer": "Yes, we offer multilingual training delivery to support Malaysia's diverse workforce. Our training sessions and materials are available in English, Bahasa Malaysia, and Mandarin, ensuring all participants can fully engage with the content regardless of their primary language."
+            },
+            {
+              "question": "What industries do you specialise in for training delivery?",
+              "answer": "We have extensive experience delivering training across key Malaysian economic sectors including manufacturing, technology, financial services, hospitality, healthcare, and construction. Our facilitators bring industry-specific knowledge that ensures content relevance and practical application."
+            },
+            {
+              "question": "How do you measure the effectiveness of your training programs?",
+              "answer": "We employ a comprehensive evaluation framework based on the Kirkpatrick model, measuring participant reaction, knowledge acquisition, behaviour change, and business results. We establish key performance indicators before training and conduct follow-up assessments to measure improvement and ROI."
+            }
+          ]
+        },
+        {
+          "id": "cta-training",
+          "type": "cta",
+          "heading": "Ready to Enhance Your Workforce Capabilities?",
+          "content": "Discover how our customised training programs can address your specific organisational needs while ensuring compliance with Malaysian employment regulations.",
+          "ctaButton": {
+            "text": "Schedule a Consultation",
+            "href": "/contact"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "certifications",
+      "title": "Professional HR Certifications",
+      "seoTitle": "Professional HR Certifications & Qualifications | Malaysia Employment Consultancy",
+      "seoDescription": "Internationally recognised HR certifications for Malaysian professionals. Enhance your career prospects with qualifications from HRDF, SHRM, and other leading bodies.",
+      "estimatedReadTime": 5,
+      "lastUpdated": "2024-05-14T10:30:00Z",
+      "animationStyle": "zoom-in",
+      "themeColors": {
+        "primary": "red-700",
+        "accent": "red-600",
+        "background": "white",
+        "text": "gray-700"
+      },
+      "sections": [
+        {
+          "id": "hero-certifications",
+          "type": "hero",
+          "heading": "Advance Your HR Career with Recognised Professional Certifications",
+          "subheading": "Internationally accredited qualifications with local Malaysian recognition and relevance",
+          "content": "Elevate your professional standing with globally recognised certifications that enhance your credibility in Malaysia's competitive HR landscape. Our certification programmes combine international best practices with Malaysian employment frameworks.",
+          "ctaButton": {
+            "text": "Discover Certification Pathways",
+            "href": "/contact"
+          }
+        },
+        {
+          "id": "intro-certifications",
+          "type": "text",
+          "heading": "Building Credibility Through Professional Qualifications",
+          "content": "In Malaysia's evolving business environment, HR professionals with recognised certifications are increasingly sought after by leading employers. Our certification programmes provide pathways to prestigious qualifications from internationally recognised bodies while ensuring relevance to Malaysian employment practices and regulations.\n\nWe work closely with key certification authorities including the Human Resource Development Fund (HRDF), Malaysian Institute of Human Resource Management (MIHRM), Society for Human Resource Management (SHRM), and Chartered Institute of Personnel and Development (CIPD). This ensures our participants receive qualifications that carry weight both locally and internationally, opening doors to career advancement opportunities throughout Southeast Asia and beyond."
+        },
+        {
+          "id": "certification-comparison",
+          "type": "comparisonTable",
+          "heading": "Certification Options for Malaysian HR Professionals",
+          "subheading": "Compare key certifications to find your ideal pathway",
+          "content": "We offer preparation and support for these leading HR certifications, each with distinct advantages:",
+          "tableHeaders": ["Certification", "Awarding Body", "Recognition Level", "Duration", "Ideal For"],
+          "tableRows": [
+            ["HRDF Certified Trainer", "Human Resource Development Fund Malaysia", "National", "3-6 months", "Training specialists and L&D professionals"],
+            ["MIHRM Certification", "Malaysian Institute of Human Resource Management", "National", "6-12 months", "HR generalists focusing on Malaysian practice"],
+            ["SHRM-CP/SHRM-SCP", "Society for Human Resource Management", "International", "4-8 months", "HR leaders seeking global recognition"],
+            ["CIPD Associate/Chartered", "Chartered Institute of Personnel and Development", "International", "12-24 months", "Strategic HR practitioners"],
+            ["ISO 30414 HR Auditor", "International Organization for Standardization", "International", "2-3 months", "HR compliance and standards specialists"]
+          ]
+        },
+        {
+          "id": "features-certifications",
+          "type": "features",
+          "heading": "Why Pursue Certifications Through Our Programs",
+          "features": [
+            {
+              "title": "Malaysian Context Integration",
+              "description": "All certification preparation includes Malaysian case studies, employment law applications, and local business scenarios."
+            },
+            {
+              "title": "HRDF-Claimable Status",
+              "description": "Our certification programs are HRDF-claimable, allowing Malaysian companies to offset costs through their training levy."
+            },
+            {
+              "title": "Above-Average Pass Rates",
+              "description": "Our participants achieve a 92% first-time pass rate, significantly higher than the national average for certification exams."
+            },
+            {
+              "title": "Experienced Facilitators",
+              "description": "Training delivered by practising HR professionals with both certification expertise and extensive Malaysian industry experience."
+            },
+            {
+              "title": "Career Advancement Support",
+              "description": "Post-certification career coaching and networking opportunities with Malaysian industry leaders and HR directors."
+            },
+            {
+              "title": "Flexible Learning Options",
+              "description": "Weekend, evening, and blended learning options designed for working professionals across Malaysia."
+            }
+          ]
+        },
+        {
+          "id": "imageWithText-certifications",
+          "type": "imageWithText",
+          "heading": "Certification Impact on Career Trajectory",
+          "subheading": "Real outcomes for Malaysian HR professionals",
+          "content": "Our certification graduates experience tangible career benefits following qualification. On average, certified professionals in Malaysia report a 23% salary increase within one year of certification completion, with 68% achieving significant promotions within 18 months.\n\nA recent survey of Malaysian HR professionals found that certified practitioners were 3.7 times more likely to be considered for senior positions compared to non-certified peers with equivalent experience. Additionally, 84% of Malaysian HR leaders reported that certification was a significant factor in their hiring decisions for mid to senior-level positions.\n\nBeyond compensation and advancement, our certified graduates gain access to an exclusive professional network of over 3,500 Malaysian HR practitioners, creating opportunities for knowledge sharing, mentorship, and career development.",
+          "imagePosition": "left"
+        },
+        {
+          "id": "certification-checklist",
+          "type": "checklist",
+          "heading": "Preparation for Certification Success",
+          "subheading": "Key steps to ensure you're ready for certification",
+          "content": "Our structured approach helps ensure your certification success:",
+          "items": [
+            {
+              "title": "Initial Assessment",
+              "description": "Evaluate your current knowledge against certification requirements",
+              "completed": false
+            },
+            {
+              "title": "Personalised Study Plan",
+              "description": "Receive a customised preparation roadmap aligned with your schedule",
+              "completed": false
+            },
+            {
+              "title": "Core Knowledge Modules",
+              "description": "Complete fundamental training in required certification domains",
+              "completed": false
+            },
+            {
+              "title": "Malaysian Context Application",
+              "description": "Learn how international standards apply within Malaysian employment frameworks",
+              "completed": false
+            },
+            {
+              "title": "Practice Assessments",
+              "description": "Test your knowledge with realistic exam simulations",
+              "completed": false
+            },
+            {
+              "title": "Final Exam Preparation",
+              "description": "Targeted review of challenging areas and exam techniques",
+              "completed": false
+            },
+            {
+              "title": "Certification Examination",
+              "description": "Complete your official certification assessment",
+              "completed": false
+            },
+            {
+              "title": "Continuous Professional Development",
+              "description": "Ongoing learning to maintain and enhance your certification",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "faq-certifications",
+          "type": "faq",
+          "heading": "Certification FAQs",
+          "faqs": [
+            {
+              "question": "Which HR certification is most recognised in Malaysia?",
+              "answer": "While all our certification pathways are respected in Malaysia, the MIHRM certification has the strongest local recognition specifically for Malaysian HR practices. For professionals seeking international mobility, the SHRM and CIPD certifications carry significant weight across Southeast Asia and globally."
+            },
+            {
+              "question": "Are your certification programs HRDF-claimable?",
+              "answer": "Yes, all our certification preparation programs are registered with the Human Resource Development Fund (HRDF). Malaysian employers can claim these programs against their HRDF levy, substantially reducing the out-of-pocket cost for corporate-sponsored participants."
+            },
+            {
+              "question": "How long does it typically take to complete a certification program?",
+              "answer": "Completion timeframes vary based on the certification path. HRDF and ISO certifications typically require 2-3 months of preparation, SHRM certifications average 4-6 months, MIHRM certification takes 6-12 months, and CIPD qualifications range from 12-24 months depending on the level pursued."
+            },
+            {
+              "question": "What is your certification exam pass rate?",
+              "answer": "Our participants achieve a 92% first-time pass rate across all certification programs, significantly exceeding the national averages. This success rate is attributed to our structured preparation methodology, experienced facilitators, and comprehensive study materials tailored to Malaysian professionals."
+            },
+            {
+              "question": "Do you offer financial assistance for certification programs?",
+              "answer": "Beyond HRDF claims, we offer instalment payment plans for individual participants. We also maintain relationships with several Malaysian financial institutions that provide education financing for professional certifications, and can guide you through these application processes."
+            }
+          ]
+        },
+        {
+          "id": "cta-certifications",
+          "type": "cta",
+          "heading": "Begin Your Certification Journey Today",
+          "content": "Take the first step toward enhancing your professional credentials and expanding your career opportunities in Malaysia's competitive HR landscape.",
+          "ctaButton": {
+            "text": "Explore Certification Pathways",
+            "href": "/contact"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "workshops",
+      "title": "Interactive HR Workshops",
+      "seoTitle": "Interactive HR Workshops & Seminars in Malaysia | Practical Training Solutions",
+      "seoDescription": "Hands-on HR workshops addressing key Malaysian employment challenges. Interactive sessions for practical skill development, compliance understanding, and best practice implementation.",
+      "estimatedReadTime": 4,
+      "lastUpdated": "2024-05-12T09:15:00Z",
+      "animationStyle": "slide-left",
+      "themeColors": {
+        "primary": "red-700",
+        "accent": "red-600",
+        "background": "white",
+        "text": "gray-700"
+      },
+      "sections": [
+        {
+          "id": "hero-workshops",
+          "type": "hero",
+          "heading": "Interactive Workshops for Practical HR Skills Development",
+          "subheading": "Hands-on learning experiences that address real workplace challenges in Malaysia",
+          "content": "Our interactive workshops provide immersive learning experiences where HR professionals and managers develop practical skills through hands-on activities, case studies, and collaborative problem-solving. Each workshop focuses on immediate application of learning to Malaysian workplace scenarios.",
+          "ctaButton": {
+            "text": "View Upcoming Workshops",
+            "href": "/events"
+          }
+        },
+        {
+          "id": "intro-workshops",
+          "type": "text",
+          "heading": "Experiential Learning for Immediate Application",
+          "content": "Our workshops go beyond theoretical knowledge to deliver practical, applicable skills that participants can implement immediately in their Malaysian workplaces. Using adult learning principles and interactive methodologies, we create engaging environments where professionals learn through doing, not just listening.\n\nEach workshop is facilitated by seasoned HR practitioners with extensive experience in Malaysian organisations across various industries. These facilitators bring real-world case studies, challenging scenarios, and proven solutions that reflect the unique aspects of Malaysia's diverse workplace environments. Workshops are limited to small groups of 15-20 participants to ensure personalised attention and maximum engagement."
+        },
+        {
+          "id": "workshops-expertInsights",
+          "type": "expertInsights",
+          "heading": "Industry Expert Perspectives",
+          "subheading": "Insights from Malaysia's leading HR practitioners",
+          "content": "Our workshops incorporate valuable insights from industry leaders:",
+          "insights": [
+            {
+              "expert": "Dato' Ahmad Ismail",
+              "position": "Former HR Director, Malaysian Multinational",
+              "insight": "The Malaysian employment landscape requires HR professionals to balance international best practices with local cultural nuances. Effective workshops must address this unique combination."
+            },
+            {
+              "expert": "Dr. Sarah Wong",
+              "position": "Employment Law Specialist",
+              "insight": "Recent amendments to the Employment Act have significant implications for all Malaysian businesses. Interactive learning is the most effective way to understand these practical compliance requirements."
+            },
+            {
+              "expert": "Rajesh Gupta",
+              "position": "Chief People Officer, Tech Sector",
+              "insight": "Malaysia's competitive talent market demands innovative HR approaches. Workshops that develop creative problem-solving skills deliver the greatest value for modern organisations."
+            }
+          ]
+        },
+        {
+          "id": "features-workshops",
+          "type": "features",
+          "heading": "Workshop Methodology & Benefits",
+          "features": [
+            {
+              "title": "Activity-Based Learning",
+              "description": "Participants spend 70% of workshop time engaged in practical exercises, case studies, role plays, and collaborative problem-solving activities."
+            },
+            {
+              "title": "Malaysian Case Studies",
+              "description": "All workshops incorporate real scenarios from Malaysian organisations, ensuring relevance to local business practices and regulatory requirements."
+            },
+            {
+              "title": "Implementation Planning",
+              "description": "Every workshop concludes with participants developing actionable implementation plans for their specific organisational contexts."
+            },
+            {
+              "title": "Post-Workshop Support",
+              "description": "Participants receive 30 days of follow-up consultation to address challenges encountered when applying workshop learnings."
+            },
+            {
+              "title": "Comprehensive Resources",
+              "description": "Take-away toolkits including templates, checklists, and reference guides customised for Malaysian workplace application."
+            }
+          ]
+        },
+        {
+          "id": "imageWithText-workshops",
+          "type": "imageWithText",
+          "heading": "Creating Transformative Learning Experiences",
+          "subheading": "From knowledge to action in Malaysian organisations",
+          "content": "Our workshop participants consistently report significant improvements in their ability to address complex HR challenges in their organisations. In post-workshop evaluations, 94% of attendees reported successfully implementing at least three new practices within their first month following the session.\n\nA telecommunications company in Cyberjaya utilised our workplace investigation workshop to develop a standardised protocol that reduced resolution time for employee relations issues by 47%. Similarly, a manufacturing firm in Johor Bahru implemented conflict resolution techniques from our workshop that improved team productivity by 23% within one quarter.\n\nWe measure workshop effectiveness not just through participant satisfaction, but through tangible business outcomes that demonstrate real value to Malaysian organisations investing in their HR capabilities.",
+          "imagePosition": "right"
+        },
+        {
+          "id": "workshop-infographic",
+          "type": "infographic",
+          "heading": "Popular Workshop Themes",
+          "subheading": "Addressing key HR challenges in Malaysian organisations",
+          "content": "Our most requested workshop topics include:",
+          "steps": [
+            {
+              "title": "Employment Act Compliance",
+              "description": "Practical implementation of Malaysia's latest employment legislation amendments."
+            },
+            {
+              "title": "Performance Management",
+              "description": "Effective approaches to goal setting, feedback, and evaluation in Malaysian workplaces."
+            },
+            {
+              "title": "Workplace Investigations",
+              "description": "Structured methodologies for conducting fair and thorough investigations of workplace issues."
+            },
+            {
+              "title": "HR for Non-HR Managers",
+              "description": "Essential people management skills for Malaysian line managers and supervisors."
+            },
+            {
+              "title": "Talent Retention Strategies",
+              "description": "Practical approaches to engaging and retaining key talent in Malaysia's competitive market."
+            },
+            {
+              "title": "Diversity & Inclusion",
+              "description": "Creating inclusive workplaces that leverage Malaysia's multicultural workforce."
+            }
+          ]
+        },
+        {
+          "id": "faq-workshops",
+          "type": "faq",
+          "heading": "Workshop FAQs",
+          "faqs": [
+            {
+              "question": "How are your workshops different from typical training sessions?",
+              "answer": "Our workshops emphasise active participation over passive learning. Unlike traditional training where participants primarily listen to presentations, our workshops dedicate 70% of time to hands-on activities such as role plays, case studies, scenario planning, and collaborative problem-solving. This experiential approach ensures learning is immediately applicable to Malaysian workplace contexts."
+            },
+            {
+              "question": "Can workshops be customised for our organisation's specific needs?",
+              "answer": "Absolutely. We offer fully customised in-house workshops tailored to your organisation's specific industry, challenges, and objectives. Our development process includes thorough consultation with key stakeholders, review of relevant policies and procedures, and customisation of all case studies and exercises to reflect your Malaysian workplace realities."
+            },
+            {
+              "question": "Where are your workshops conducted?",
+              "answer": "We offer workshops at our training centre in Petaling Jaya as well as at client premises throughout Malaysia. We also provide virtual workshop options using interactive online platforms that maintain the collaborative, hands-on nature of our in-person sessions while accommodating geographically dispersed teams."
+            },
+            {
+              "question": "Are your workshops HRDF-claimable?",
+              "answer": "Yes, all our public and customised workshops are HRDF-claimable under the SBL scheme. We handle all necessary documentation to facilitate smooth claim processing for Malaysian employers, ensuring you can maximise your training levy utilisation."
+            },
+            {
+              "question": "What is the ideal group size for your workshops?",
+              "answer": "We limit our workshops to 15-20 participants to ensure quality interaction, personalised attention, and maximum engagement. For customised in-house workshops, we recommend similar numbers, though we can adapt our methodology for slightly larger groups when necessary."
+            }
+          ]
+        },
+        {
+          "id": "cta-workshops",
+          "type": "cta",
+          "heading": "Experience the Power of Interactive Learning",
+          "content": "Join our upcoming workshops or enquire about customised sessions designed specifically for your organisation's Malaysian context.",
+          "ctaButton": {
+            "text": "View Workshop Calendar",
+            "href": "/events"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "soft-skills-training",
+      "title": "Essential Soft Skills Training",
+      "seoTitle": "Professional Soft Skills Training for Malaysian Workplaces | Communication, Leadership & More",
+      "seoDescription": "Develop critical soft skills for Malaysian workplace success. Our training improves communication, leadership, emotional intelligence, and problem-solving capabilities for professionals at all levels.",
+      "estimatedReadTime": 4,
+      "lastUpdated": "2024-05-10T14:45:00Z",
+      "animationStyle": "fade-up",
+      "themeColors": {
+        "primary": "red-700",
+        "accent": "red-600",
+        "background": "white",
+        "text": "gray-700"
+      },
+      "sections": [
+        {
+          "id": "hero-softskills",
+          "type": "hero",
+          "heading": "Developing Essential Soft Skills for Workplace Excellence",
+          "subheading": "Enhance the human capabilities that drive organisational success in Malaysia's diverse business environment",
+          "content": "In today's complex business landscape, technical expertise alone isn't enough. Our soft skills training develops the interpersonal, communication, and leadership capabilities that differentiate exceptional professionals in Malaysia's multicultural workplace.",
+          "ctaButton": {
+            "text": "Explore Soft Skills Programs",
+            "href": "/contact"
+          }
+        },
+        {
+          "id": "intro-softskills",
+          "type": "text",
+          "heading": "The Competitive Advantage of Strong Soft Skills",
+          "content": "While technical skills may secure an interview, it's soft skills that build successful careers and drive organisational excellence. Our soft skills training addresses the critical human capabilities that enable professionals to navigate Malaysia's diverse business environment effectively, influence others positively, and achieve results through collaborative effort.\n\nOur programs are designed to develop practical capabilities across four key domains: effective communication, interpersonal effectiveness, self-management, and leadership presence. Each program incorporates Malaysia's multicultural context, addressing the nuances of communication and collaboration in the country's diverse workplace environments.\n\nResearch consistently shows that employees with strong soft skills are 12% more productive, demonstrate higher retention rates, and advance more quickly in their careers. For Malaysian organisations, investing in soft skills development yields tangible returns through improved team dynamics, enhanced customer relations, and more effective leadership at all levels."
+        },
+        {
+          "id": "softskills-comparisonTable",
+          "type": "comparisonTable",
+          "heading": "The Impact of Soft Skills Development",
+          "subheading": "Comparing outcomes before and after training",
+          "content": "Our soft skills training delivers measurable improvements across key performance indicators:",
+          "tableHeaders": ["Performance Indicator", "Before Training", "After Training", "Improvement"],
+          "tableRows": [
+            ["Team Communication Effectiveness", "64%", "89%", "+25%"],
+            ["Conflict Resolution Success Rate", "52%", "87%", "+35%"],
+            ["Customer Satisfaction Scores", "73%", "91%", "+18%"],
+            ["Employee Engagement Metrics", "68%", "84%", "+16%"],
+            ["Project Collaboration Efficiency", "59%", "82%", "+23%"],
+            ["Leadership Confidence Ratings", "61%", "88%", "+27%"]
+          ]
+        },
+        {
+          "id": "features-softskills",
+          "type": "features",
+          "heading": "Core Soft Skills Training Areas",
+          "subheading": "Essential capabilities for Malaysian workplace success",
+          "features": [
+            {
+              "title": "Communication Excellence",
+              "description": "Develop clear, persuasive communication skills that bridge cultural differences in Malaysia's diverse workplace. Includes presentation skills, active listening, and cross-cultural communication techniques."
+            },
+            {
+              "title": "Emotional Intelligence",
+              "description": "Enhance self-awareness, empathy, and relationship management capabilities to navigate complex workplace interactions and build stronger professional connections."
+            },
+            {
+              "title": "Leadership Presence",
+              "description": "Cultivate the confidence, credibility, and influencing skills needed to lead effectively, even without formal authority. Particularly valuable in Malaysian organisations with hierarchical structures."
+            },
+            {
+              "title": "Adaptive Problem Solving",
+              "description": "Develop creative approaches to challenges, enhance critical thinking, and build resilience when facing obstacles in rapidly evolving business environments."
+            },
+            {
+              "title": "Collaborative Teamwork",
+              "description": "Master the art of working effectively in diverse teams, leveraging differences, managing conflicts constructively, and achieving collective results through cooperation."
+            },
+            {
+              "title": "Professional Etiquette",
+              "description": "Navigate Malaysian business customs and international professional standards with confidence, enhancing your organisation's reputation through appropriate conduct."
+            }
+          ]
+        },
+        {
+          "id": "softskills-checklist",
+          "type": "checklist",
+          "heading": "Soft Skills Development Roadmap",
+          "subheading": "A structured approach to interpersonal excellence",
+          "content": "Our comprehensive soft skills development follows this proven pathway:",
+          "items": [
+            {
+              "title": "Skills Assessment",
+              "description": "Identify current strengths and development opportunities",
+              "completed": false
+            },
+            {
+              "title": "Personalised Learning Plan",
+              "description": "Create a tailored development roadmap based on assessment results",
+              "completed": false
+            },
+            {
+              "title": "Foundational Training",
+              "description": "Build essential skills through structured learning experiences",
+              "completed": false
+            },
+            {
+              "title": "Practical Application",
+              "description": "Apply new skills in simulated workplace scenarios",
+              "completed": false
+            },
+            {
+              "title": "Real-World Implementation",
+              "description": "Transfer learning to actual workplace situations",
+              "completed": false
+            },
+            {
+              "title": "Feedback & Refinement",
+              "description": "Receive coaching on implementation effectiveness",
+              "completed": false
+            },
+            {
+              "title": "Advanced Skill Development",
+              "description": "Build on foundations to develop mastery",
+              "completed": false
+            },
+            {
+              "title": "Ongoing Growth",
+              "description": "Continuous improvement through practice and reflection",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "id": "imageWithText-softskills",
+          "type": "imageWithText",
+          "heading": "Developing Soft Skills in Malaysia's Multicultural Context",
+          "subheading": "Culturally intelligent approaches to interpersonal effectiveness",
+          "content": "Malaysia's rich cultural diversity creates both opportunities and challenges for workplace communication and collaboration. Our soft skills training specifically addresses the unique aspects of developing interpersonal effectiveness in Malaysian multicultural environments.\n\nParticipants learn to navigate cultural differences in communication styles, recognising when direct or indirect approaches are more effective. They develop awareness of cultural variations in hierarchy perceptions, team dynamics, and conflict resolution preferences among Malaysia's major ethnic groups.\n\nA financial services organisation in Kuala Lumpur reported a 34% improvement in cross-departmental collaboration after implementing our culturally-aware communication training. Similarly, a multinational manufacturing company in Penang saw customer satisfaction scores increase by 27% following our customer service communication program that addressed the specific preferences of Malaysian consumers.",
+          "imagePosition": "left"
+        },
+        {
+          "id": "faq-softskills",
+          "type": "faq",
+          "heading": "Soft Skills Training FAQs",
+          "faqs": [
+            {
+              "question": "How do you measure the effectiveness of soft skills training?",
+              "answer": "We employ a multi-faceted measurement approach including pre and post-training assessments, 360-degree feedback, workplace application success tracking, and business impact indicators such as customer satisfaction and team productivity metrics. For Malaysian organisations, we also provide structured ROI analysis that demonstrates the business value of improved soft skills."
+            },
+            {
+              "question": "Can soft skills really be taught effectively?",
+              "answer": "Absolutely. While some individuals may have natural aptitudes in certain areas, research consistently demonstrates that soft skills can be systematically developed through structured learning, practice, feedback, and application. Our methodology combines educational psychology principles with practical workplace application to ensure skills are not just learned but effectively implemented."
+            },
+            {
+              "question": "How are your soft skills programs adapted for Malaysian workplace contexts?",
+              "answer": "Our programs integrate Malaysian cultural elements, local business practices, and region-specific case studies. We address the unique aspects of communication and collaboration in Malaysia's multicultural environment, including appropriate approaches for different business settings, industries, and organizational cultures within the Malaysian context."
+            },
+            {
+              "question": "Which soft skills are most important for Malaysian professionals?",
+              "answer": "While all soft skills are valuable, our research with Malaysian employers indicates that cross-cultural communication, adaptability, relationship building, and collaborative problem-solving are particularly critical in Malaysia's diverse business landscape. Leadership skills that balance decisiveness with respect for hierarchy are also highly valued."
+            },
+            {
+              "question": "Do you offer soft skills training in languages other than English?",
+              "answer": "Yes, we provide soft skills training in Bahasa Malaysia and Mandarin in addition to English. Our multilingual facilitators ensure participants can engage fully in their preferred language, particularly important for soft skills development where nuanced understanding and expression are essential."
+            }
+          ]
+        },
+        {
+          "id": "cta-softskills",
+          "type": "cta",
+          "heading": "Enhance Your Team's Interpersonal Effectiveness",
+          "content": "Develop the essential human capabilities that drive success in Malaysia's complex business environment.",
+          "ctaButton": {
+            "text": "Schedule a Consultation",
+            "href": "/contact"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "corporate-training-solutions",
+      "title": "Comprehensive Corporate Training Solutions",
+      "seoTitle": "Enterprise-Level Corporate Training Solutions in Malaysia | Customised HR Development",
+      "seoDescription": "Tailored corporate training solutions for Malaysian organisations of all sizes. Our comprehensive programs address specific business challenges, enhance capabilities, and drive organisational performance.",
+      "estimatedReadTime": 5,
+      "lastUpdated": "2024-05-13T11:00:00Z",
+      "animationStyle": "slide-left",
+      "themeColors": {
+        "primary": "red-700",
+        "accent": "red-600",
+        "background": "white",
+        "text": "gray-700"
+      },
+      "sections": [
+        {
+          "id": "hero-corporate",
+          "type": "hero",
+          "heading": "Strategic Corporate Training Solutions for Malaysian Organisations",
+          "subheading": "End-to-end learning and development programs aligned with your business objectives and cultural context",
+          "content": "We partner with Malaysian organisations to design, deliver, and measure comprehensive training solutions that address specific business challenges, develop critical capabilities, and drive measurable performance improvements.",
+          "ctaButton": {
+            "text": "Discuss Your Training Needs",
+            "href": "/contact"
+          }
+        },
+        {
+          "id": "intro-corporate",
+          "type": "text",
+          "heading": "Transforming Organisations Through Strategic Learning",
+          "content": "Our corporate training solutions go beyond individual skill development to create systemic capabilities that transform organisational performance. We work consultatively with Malaysian businesses to understand their unique challenges, identify capability gaps, and design comprehensive learning interventions that deliver measurable business impact.\n\nEvery solution begins with thorough discovery to understand your organisation's specific context, challenges, and objectives. This ensures our training addresses actual business needs rather than generic skill gaps. Our systematic approach integrates needs analysis, custom design, expert delivery, and rigorous evaluation to create sustainable performance improvements.\n\nWith experience serving Malaysian organisations across manufacturing, technology, finance, healthcare, and service sectors, we understand the unique characteristics of different industry contexts and tailor our solutions accordingly. Our facilitators bring both subject matter expertise and deep familiarity with Malaysian business culture, ensuring relevant, applicable learning experiences."
+        },
+        {
+          "id": "features-corporate",
+          "type": "features",
+          "heading": "Our Comprehensive Approach",
+          "subheading": "End-to-end training solutions for Malaysian businesses",
+          "features": [
+            {
+              "title": "Thorough Training Needs Analysis",
+              "description": "We conduct comprehensive assessments using interviews, surveys, performance data, and business objectives to identify specific capability requirements in your Malaysian operation."
+            },
+            {
+              "title": "Custom Content Development",
+              "description": "Our instructional designers create tailored materials incorporating your policies, procedures, systems, and Malaysian business context, ensuring immediate relevance and application."
+            },
+            {
+              "title": "Blended Delivery Methodologies",
+              "description": "We employ optimal combinations of instructor-led training, e-learning, coaching, simulations, and on-the-job learning to maximise engagement and effectiveness."
+            },
+            {
+              "title": "Multi-Language Capabilities",
+              "description": "Training delivery and materials available in English, Bahasa Malaysia, and Mandarin to support Malaysia's diverse workforce demographics."
+            },
+            {
+              "title": "Implementation Support",
+              "description": "We provide post-training reinforcement tools, manager guides, and application support to ensure learning translates into workplace performance."
+            },
+            {
+              "title": "Comprehensive Evaluation",
+              "description": "Our measurement framework tracks learning effectiveness, behaviour change, and business impact, providing clear ROI for your training investment."
+            }
+          ]
+        },
+        {
+          "id": "corporate-infographic",
+          "type": "infographic",
+          "heading": "Our Corporate Training Process",
+          "subheading": "A systematic approach to organisational capability development",
+          "content": "We follow a proven methodology to deliver effective corporate training solutions:",
+          "steps": [
+            {
+              "title": "Discovery & Analysis",
+              "description": "We identify specific business challenges and capability needs through data analysis and stakeholder consultation."
+            },
+            {
+              "title": "Solution Design",
+              "description": "Our specialists create customised learning architectures aligned with your business objectives and Malaysian context."
+            },
+            {
+              "title": "Content Development",
+              "description": "Instructional designers develop engaging, culturally relevant learning materials and activities for maximum impact."
+            },
+            {
+              "title": "Expert Delivery",
+              "description": "Experienced facilitators deliver interactive learning experiences using best practices in adult education."
+            },
+            {
+              "title": "Implementation Support",
+              "description": "We provide tools and coaching to help participants apply learning in their daily work."
+            },
+            {
+              "title": "Measurement & Refinement",
+              "description": "Comprehensive evaluation identifies results and opportunities for continuous improvement."
+            }
+          ]
+        },
+        {
+          "id": "corporate-expertInsights",
+          "type": "expertInsights",
+          "heading": "Training Trends in Malaysian Corporations",
+          "subheading": "Insights from L&D leaders",
+          "content": "Current perspectives on corporate training evolution in Malaysia:",
+          "insights": [
+            {
+              "expert": "Tan Sri Abdul Rahman",
+              "position": "Chief Learning Officer, Malaysian Conglomerate",
+              "insight": "Malaysian organisations are increasingly focused on developing capabilities that support digital transformation. Effective corporate training must integrate technological fluency with traditional business skills."
+            },
+            {
+              "expert": "Dr. Mei Lin Chen",
+              "position": "Director of Talent Development, Multinational Corporation",
+              "insight": "The most effective corporate training programs in Malaysia blend global best practices with local cultural context. This balance is essential for implementation success."
+            },
+            {
+              "expert": "Krishnan Pillai",
+              "position": "HRDF Senior Consultant",
+              "insight": "Malaysian companies achieving the highest ROI from training are those that establish clear connections between learning initiatives and specific business outcomes from the outset."
+            }
+          ]
+        },
+        {
+          "id": "imageWithText-corporate",
+          "type": "imageWithText",
+          "heading": "Driving Business Performance Through Targeted Training",
+          "subheading": "Real results for Malaysian organisations",
+          "content": "Our corporate training solutions consistently deliver measurable business impact across Malaysian organisations. A leading telecommunications provider implemented our customer experience training program across their service centres in Malaysia, resulting in a 32% reduction in customer complaints and a 28% increase in satisfaction scores within six months.\n\nA manufacturing operation in Selangor saw a 45% decrease in safety incidents following our comprehensive safety leadership program that addressed both technical knowledge and behavioural factors. Similarly, a banking institution in Kuala Lumpur reported a 37% increase in sales conversions after implementing our relationship-based selling curriculum.\n\nBeyond these specific metrics, clients consistently report improvements in employee engagement, reduced turnover, and stronger leadership pipelines as a result of our systematic approach to capability development. We maintain a focus on sustainable results, ensuring that training initiatives create lasting change rather than temporary improvements.",
+          "imagePosition": "right"
+        },
+        {
+          "id": "faq-corporate",
+          "type": "faq",
+          "heading": "Corporate Training FAQs",
+          "faqs": [
+            {
+              "question": "How do you customise training for different industries in Malaysia?",
+              "answer": "Our customisation process begins with thorough industry analysis, including regulatory requirements, market dynamics, and standard practices specific to your Malaysian business context. We conduct interviews with subject matter experts within your organisation to understand unique challenges and incorporate relevant examples, case studies, and scenarios that reflect real situations in your industry. This ensures training is immediately applicable and relevant to participants' daily work."
+            },
+            {
+              "question": "What makes your corporate training solutions different from other providers?",
+              "answer": "Three key differentiators set us apart: First, our consultative approach means we address business problems, not just training needs. Second, our facilitators combine subject matter expertise with deep experience in Malaysian business environments. Third, our measurement methodology provides clear evidence of business impact and ROI, not just participant satisfaction. Additionally, our multilingual capabilities ensure we can effectively serve Malaysia's diverse workforce."
+            },
+            {
+              "question": "How do you handle training for organisations with multiple locations across Malaysia?",
+              "answer": "We employ a hub-and-spoke delivery model for organisations with multiple locations throughout Malaysia. This includes standardised core content to ensure consistency, with modular elements that can be customised for regional variations. Our facilitators are available nationwide, and we utilise digital learning components where appropriate to ensure accessibility. We also develop internal train-the-trainer capabilities for clients requiring ongoing delivery at scale."
+            },
+            {
+              "question": "Can training programs be eligible for HRDF claims?",
+              "answer": "Yes, all our corporate training solutions are structured to qualify for Human Resource Development Fund (HRDF) claims under appropriate schemes. We handle all necessary documentation, including submission of training outlines, facilitator credentials, and participant assessments to streamline the claim process. Our team can also advise on maximising available funding through strategic training planning."
+            },
+            {
+              "question": "How quickly can you develop and deploy a custom training program?",
+              "answer": "Development timeframes vary based on program complexity and scope. For standard topics requiring moderate customisation, we typically deliver within 3-4 weeks. Complex, highly customised programs may require 6-8 weeks for thorough needs analysis, design, and material development. For urgent business needs, we offer rapid deployment options that utilise pre-existing frameworks with accelerated customisation, which can reduce delivery time to 1-2 weeks."
+            }
+          ]
+        },
+        {
+          "id": "cta-corporate",
+          "type": "cta",
+          "heading": "Partner with Us to Transform Your Organisation",
+          "content": "Discover how our comprehensive corporate training solutions can address your specific business challenges and elevate performance across your Malaysian operations.",
+          "ctaButton": {
+            "text": "Request a Consultation",
+            "href": "/contact"
+          }
+        }
+      ]
+    }
+  ]
+}

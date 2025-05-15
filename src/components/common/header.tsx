@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence, useAnimation } from "framer-motion";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from 'next/image';
@@ -11,11 +11,59 @@ const navData = {
   menuItems: [
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about" },
-    { name: "HR Services", path: "/hr-services" },
-    { name: "Intelligence", path: "/intelligence" },
-    { name: "Payroll", path: "/payroll" },
-    { name: "Talent Acquisition", path: "/talent-acquisition" },
-    { name: "Academy", path: "/academy" },
+{
+    name: "HR Services",
+    path: "/hr-services",
+    subItems: [
+      { name: "Employee Onboarding", path: "/hr-services/employee-onboarding" },
+      { name: "HR Policy Development", path: "/hr-services/hr-policy-development" },
+      { name: "Performance Management", path: "/hr-services/performance-management" },
+      { name: "Employee Engagement", path: "/hr-services/employee-engagement" },
+      { name: "Workplace Compliance", path: "/hr-services/workplace-compliance" },
+    ]
+  },
+  {
+    name: "Intelligence",
+    path: "/intelligence",
+    subItems: [
+      { name: "Background Screening", path: "/intelligence/background-screening" },
+      { name: "Employee Verification", path: "/intelligence/employee-verification" },
+      { name: "Fraud & Risk Assessment", path: "/intelligence/fraud-risk-assessment" },
+      { name: "Workplace Investigation", path: "/intelligence/workplace-investigation" },
+    ]
+  },
+    { 
+      name: "Payroll", 
+      path: "/payroll"
+      // subItems: [
+      //   { name: "Payroll Processing", path: "/payroll/payroll-processing" },
+      //   { name: "EPF/SOCSO Compliance", path: "/payroll/epf-socso-compliance" },
+      //   { name: "Payslip Management", path: "/payroll/payslip-management" },
+      //   { name: "Tax Filing Services", path: "/payroll/tax-filing-services" }
+      // ]
+    },
+    { 
+      name: "Talent Acquisition", 
+      path: "/talent-acquisition",
+      subItems: [
+        { name: "Executive Search", path: "/talent-acquisition/executive-search" },
+        { name: "Contract Staffing", path: "/talent-acquisition/contract-staffing" },
+        { name: "Permanent Recruitment", path: "/talent-acquisition/permanent-recruitment" },
+        { name: "Internship Programs", path: "/talent-acquisition/internship-programs" },
+        { name: "Candidate Screening", path: "/talent-acquisition/candidate-screening" }
+      ]
+    },
+    { 
+      name: "Academy", 
+      path: "/academy",
+      subItems: [
+        { name: "Training Programs", path: "/academy/training-programs" },
+        { name: "Certifications", path: "/academy/certifications" },
+        { name: "Workshops", path: "/academy/workshops" },
+        { name: "Soft Skills Training", path: "/academy/soft-skills-training" },
+        { name: "Corporate Training Solutions", path: "/academy/corporate-training-solutions" }
+      ]
+    },
     { name: "Publication", path: "/publication" },
     { name: "Contact Us", path: "/contact-us" },
   ]
@@ -25,12 +73,17 @@ export default function Navbar() {
   const pathname = usePathname();
   const [, setIsScrolled] = useState(false); 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const controls = useAnimation();
   const navRef = useRef(null);
 
   const isActive = (path: string) => {
     return pathname === path || 
            (path !== '/' && pathname.startsWith(path));
+  };
+
+  const toggleDropdown = (itemName: string) => {
+    setOpenDropdown(openDropdown === itemName ? null : itemName);
   };
 
   useEffect(() => {
@@ -104,6 +157,25 @@ export default function Navbar() {
     }
   };
 
+  const dropdownVariants = {
+    open: {
+      opacity: 1,
+      height: "auto",
+      transition: {
+        duration: 0.3,
+        ease: "easeOut"
+      }
+    },
+    closed: {
+      opacity: 0,
+      height: 0,
+      transition: {
+        duration: 0.2,
+        ease: "easeIn"
+      }
+    }
+  };
+
   return (
     <motion.header 
       ref={navRef}
@@ -142,6 +214,8 @@ export default function Navbar() {
             <AnimatePresence>
               {navData.menuItems.map((item, i) => {
                 const active = isActive(item.path);
+                const hasSubItems = item.subItems && item.subItems.length > 0;
+                
                 return (
                   <motion.div
                     key={item.name}
@@ -149,18 +223,30 @@ export default function Navbar() {
                     initial="hidden"
                     animate="visible"
                     variants={menuItemVariants}
-                    className="relative"
+                    className="relative group"
+                    onMouseEnter={() => hasSubItems && setOpenDropdown(item.name)}
+                    onMouseLeave={() => hasSubItems && setOpenDropdown(null)}
                   >
-                    <Link
-                      href={item.path}
-                      className={`px-3 py-2 text-base font-medium rounded-md transition-colors duration-200 nav-item ${
-                        active 
-                          ? "text-red-600 font-semibold active" 
-                          : "text-gray-700 hover:text-red-600"
-                      }`}
-                    >
-                      {item.name}
-                      {active && (
+                    <div className="relative">
+                      <Link
+                        href={item.path}
+                        className={`px-3 py-2 text-base font-medium rounded-md transition-colors duration-200 nav-item flex items-center ${
+                          active 
+                            ? "text-red-600 font-semibold active" 
+                            : "text-gray-700 hover:text-red-600"
+                        }`}
+                      >
+                        {item.name}
+                        {hasSubItems && (
+                          <ChevronDown 
+                            size={16} 
+                            className={`ml-1 transition-transform duration-200 ${
+                              openDropdown === item.name ? 'rotate-180' : ''
+                            }`}
+                          />
+                        )}
+                      </Link>
+                      {active && !hasSubItems && (
                         <motion.div
                           className="absolute bottom-0 left-0 h-0.5 bg-red-600 w-full"
                           layoutId="navbar-underline"
@@ -169,7 +255,37 @@ export default function Navbar() {
                           transition={{ duration: 0.4, ease: "easeOut" }}
                         />
                       )}
-                    </Link>
+                    </div>
+
+                    {hasSubItems && (
+                      <AnimatePresence>
+                        {openDropdown === item.name && (
+                          <motion.div
+                            className="absolute left-0 mt-0 w-56 origin-top-left rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-50"
+                            variants={dropdownVariants}
+                            initial="closed"
+                            animate="open"
+                            exit="closed"
+                          >
+                            <div className="py-1">
+                              {item.subItems.map((subItem) => (
+                                <Link
+                                  key={subItem.name}
+                                  href={subItem.path}
+                                  className={`block px-4 py-2 text-sm ${
+                                    isActive(subItem.path)
+                                      ? 'bg-red-50 text-red-600'
+                                      : 'text-gray-700 hover:bg-gray-50 hover:text-red-600'
+                                  }`}
+                                >
+                                  {subItem.name}
+                                </Link>
+                              ))}
+                            </div>
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    )}
                   </motion.div>
                 );
               })}
@@ -225,13 +341,16 @@ export default function Navbar() {
             transition={{ duration: 0.4, ease: "easeInOut" }}
           >
             <motion.div 
-              className="px-4 pt-2 pb-4 space-y-2 sm:px-6"
+              className="px-4 pt-2 pb-4 space-y-1 sm:px-6"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.1, duration: 0.3 }}
             >
               {navData.menuItems.map((item, i) => {
                 const active = isActive(item.path);
+                const hasSubItems = item.subItems && item.subItems.length > 0;
+                const isDropdownOpen = openDropdown === item.name;
+                
                 return (
                   <motion.div
                     key={item.name}
@@ -247,25 +366,64 @@ export default function Navbar() {
                       transition: { duration: 0.2 }
                     }}
                   >
-                    <Link
-                      href={item.path}
-                      className={`flex items-center justify-between px-4 py-3 rounded-lg text-base font-medium ${
-                        active
-                          ? "text-red-600 bg-red-50 shadow-sm"
-                          : "text-gray-700 hover:bg-gray-50 hover:text-red-600"
-                      }`}
-                    >
-                      <span>{item.name}</span>
-                      {active && (
-                        <motion.div
-                          initial={{ scale: 0 }}
-                          animate={{ scale: 1 }}
-                          transition={{ delay: i * 0.05 + 0.2, type: "spring", stiffness: 400, damping: 10 }}
+                    <div className="flex flex-col">
+                      <div className="flex justify-between items-center">
+                        <Link
+                          href={item.path}
+                          className={`flex-1 px-4 py-3 rounded-lg text-base font-medium ${
+                            active
+                              ? "text-red-600 bg-red-50 shadow-sm"
+                              : "text-gray-700 hover:bg-gray-50 hover:text-red-600"
+                          }`}
                         >
-                          <ChevronDown size={16} className="text-red-600" />
-                        </motion.div>
+                          {item.name}
+                        </Link>
+                        {hasSubItems && (
+                          <button
+                            onClick={() => toggleDropdown(item.name)}
+                            className="p-2 rounded-md text-gray-500 hover:text-red-600"
+                          >
+                            <ChevronDown 
+                              size={16} 
+                              className={`transition-transform duration-200 ${
+                                isDropdownOpen ? 'rotate-180' : ''
+                              }`}
+                            />
+                          </button>
+                        )}
+                      </div>
+                      
+                      {hasSubItems && (
+                        <AnimatePresence>
+                          {isDropdownOpen && (
+                            <motion.div
+                              className="pl-4 mt-1 space-y-1"
+                              variants={dropdownVariants}
+                              initial="closed"
+                              animate="open"
+                              exit="closed"
+                            >
+                              {item.subItems.map((subItem) => (
+                                <Link
+                                  key={subItem.name}
+                                  href={subItem.path}
+                                  className={`block px-4 py-2 text-sm rounded-lg ${
+                                    isActive(subItem.path)
+                                      ? 'bg-red-50 text-red-600'
+                                      : 'text-gray-700 hover:bg-gray-50 hover:text-red-600'
+                                  }`}
+                                >
+                                  <div className="flex items-center">
+                                    <ChevronRight size={14} className="mr-2" />
+                                    {subItem.name}
+                                  </div>
+                                </Link>
+                              ))}
+                            </motion.div>
+                          )}
+                        </AnimatePresence>
                       )}
-                    </Link>
+                    </div>
                   </motion.div>
                 );
               })}
