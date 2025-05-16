@@ -81,7 +81,7 @@ export default function TalentAcquisitionAcademy() {
     <main className="flex flex-col items-center justify-center w-full">
       {/* Hero Section */}
       <section className="relative w-full py-20 md:py-28 overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=800&width=1600')] bg-cover bg-center opacity-15"></div>
+        <div className="absolute inset-0 bg-[url('/talent-acquisition.jpg?height=800&width=1600')] bg-cover bg-center "></div>
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent"></div>
         <div className="container relative mx-auto px-4 md:px-6">
           <div className="max-w-2xl text-center md:text-left">
@@ -202,7 +202,7 @@ export default function TalentAcquisitionAcademy() {
               <div className="absolute -inset-4 bg-red-100 rounded-full opacity-20 blur-3xl"></div>
               <div className="relative rounded-lg overflow-hidden shadow-xl transition-transform duration-500 hover:scale-105">
                 <Image
-                  src="/hero.webp"
+                  src="/hr-services.webp"
                   alt="Recruitment specialists conducting interview"
                   width={700}
                   height={600}
@@ -223,7 +223,7 @@ export default function TalentAcquisitionAcademy() {
               <div className="absolute -inset-4 bg-gray-200 rounded-full opacity-20 blur-3xl"></div>
               <div className="relative rounded-lg overflow-hidden shadow-xl transition-transform duration-500 hover:scale-105">
                 <Image
-                  src="/hero.webp"
+                  src="/Workforce.jpg"
                   alt="Corporate training session"
                   width={700}
                   height={600}

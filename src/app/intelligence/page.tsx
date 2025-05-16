@@ -105,7 +105,7 @@ export default function DueDiligencePage() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/hero.webp"
+                src="/due-deligence.jpg"
                 alt="Corporate due diligence meeting with executives reviewing documents"
                 fill
                 className="object-cover"
@@ -186,7 +186,7 @@ export default function DueDiligencePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/hero.webp"
+                src="/intelligence.jpg"
                 alt="Corporate risk assessment and audit process"
                 fill
                 className="object-cover"
@@ -269,7 +269,7 @@ export default function DueDiligencePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/hero.webp"
+                src="/compliance.jpg"
                 alt="Corporate governance and regulatory compliance"
                 fill
                 className="object-cover"
@@ -368,7 +368,7 @@ export default function DueDiligencePage() {
             <div className="relative h-[450px] rounded-lg overflow-hidden shadow-lg border-4 border-gray-100">
               <div className="absolute inset-0 bg-gradient-to-tr from-gray-100/50 to-transparent z-10"></div>
               <Image
-                src="/hero.webp"
+                src="/Innovation.webp"
                 alt="Intellectual property protection and innovation monitoring"
                 fill
                 className="object-cover"
@@ -461,7 +461,7 @@ export default function DueDiligencePage() {
             </div>
             <div className="relative h-[350px] rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/hero.webp"
+                src="/Financial-crime.jpg"
                 alt="Financial crime prevention and detection services"
                 fill
                 className="object-cover"

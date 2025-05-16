@@ -97,59 +97,65 @@ const PublicationsList = () => {
               whileTap="tap"
               className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100"
             >
-              <Link href={`/publications/${publication.slug}`}>
-                <motion.div variants={hoverVariants}>
-                  {/* Image with animation */}
-                  <motion.div 
-                    className="h-48 bg-gray-200 overflow-hidden"
-                    whileHover={{ scale: 1.05 }}
-                    transition={{ duration: 0.3 }}
-                  >
-                    <div className="w-full h-full flex items-center justify-center bg-gradient-to-r from-red-50 to-gray-100">
-                      <span className="text-gray-400">Featured Image</span>
-                    </div>
-                  </motion.div>
+            <Link href={`/publication/${publication.slug}`}>
+  <motion.div variants={hoverVariants} className="cursor-pointer rounded-lg overflow-hidden shadow-sm bg-white hover:shadow-md transition-shadow">
+    {/* Image with animation */}
+    <motion.div 
+      className="h-48 bg-gray-200 overflow-hidden"
+      whileHover={{ scale: 1.05 }}
+      transition={{ duration: 0.3 }}
+    >
+      <img
+        src={publication.image} // Ensure `publication.image` holds the image URL/path
+        alt={publication.title}
+        className="w-full h-full object-cover"
+      />
+    </motion.div>
 
-                  <div className="p-6">
-                    <div className="flex flex-wrap gap-2 mb-3">
-                      {publication.tags.map((tag) => (
-                        <motion.span
-                          key={tag}
-                          variants={tagVariants}
-                          whileHover="hover"
-                          className="px-3 py-1 bg-red-100 text-red-700 text-xs rounded-full cursor-default"
-                        >
-                          {tag}
-                        </motion.span>
-                      ))}
-                    </div>
+    <div className="p-6">
+      {/* Tags */}
+      <div className="flex flex-wrap gap-2 mb-3">
+        {publication.tags.map((tag) => (
+          <motion.span
+            key={tag}
+            variants={tagVariants}
+            whileHover="hover"
+            className="px-3 py-1 bg-red-100 text-red-700 text-xs rounded-full cursor-default"
+          >
+            {tag}
+          </motion.span>
+        ))}
+      </div>
 
-                    <motion.h2 
-                      className="text-xl font-bold mb-2"
-                      whileHover={{ color: "#b91c1c" }}
-                      transition={{ duration: 0.2 }}
-                    >
-                      {publication.title}
-                    </motion.h2>
+      {/* Title */}
+      <motion.h2 
+        className="text-xl font-bold mb-2"
+        whileHover={{ color: "#b91c1c" }}
+        transition={{ duration: 0.2 }}
+      >
+        {publication.title}
+      </motion.h2>
 
-                    <motion.p 
-                      className="text-gray-600 mb-4"
-                      whileHover={{ color: "#4b5563" }}
-                    >
-                      {publication.excerpt}
-                    </motion.p>
+      {/* Excerpt */}
+      <motion.p 
+        className="text-gray-600 mb-4"
+        whileHover={{ color: "#4b5563" }}
+      >
+        {publication.excerpt}
+      </motion.p>
 
-                   <motion.div 
-  className="flex justify-between items-center text-sm text-gray-500"
-  whileHover={{ x: 5 }}
->
-  <span>By {publication.author}</span>
-  <span>{new Intl.DateTimeFormat('en-GB').format(new Date(publication.date))}</span>
-</motion.div>
+      {/* Author & Date */}
+      <motion.div 
+        className="flex justify-between items-center text-sm text-gray-500"
+        whileHover={{ x: 5 }}
+      >
+        <span>By {publication.author}</span>
+        <span>{new Intl.DateTimeFormat('en-GB').format(new Date(publication.date))}</span>
+      </motion.div>
+    </div>
+  </motion.div>
+</Link>
 
-                  </div>
-                </motion.div>
-              </Link>
             </motion.div>
           ))}
         </motion.div>
