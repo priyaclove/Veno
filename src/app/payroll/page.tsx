@@ -94,7 +94,7 @@ export default function PayrollPEOPage() {
               </div>
               <div className="relative h-[400px] rounded-xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/hero.webp"
+                  src="/payroll.webp"
                   alt="Professional payroll management services"
                   fill
                   className="object-cover"
