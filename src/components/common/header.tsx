@@ -55,14 +55,15 @@ const navData = {
     },
     { 
       name: "Academy", 
-      path: "/academy",
-      subItems: [
-        { name: "Training Programs", path: "/academy/training-programs" },
-        { name: "Certifications", path: "/academy/certifications" },
-        { name: "Workshops", path: "/academy/workshops" },
-        { name: "Soft Skills Training", path: "/academy/soft-skills-training" },
-        { name: "Corporate Training Solutions", path: "/academy/corporate-training-solutions" }
-      ]
+      path: "/academy"
+      // ,
+      // subItems: [
+      //   { name: "Training Programs", path: "/academy/training-programs" },
+      //   { name: "Certifications", path: "/academy/certifications" },
+      //   { name: "Workshops", path: "/academy/workshops" },
+      //   { name: "Soft Skills Training", path: "/academy/soft-skills-training" },
+      //   { name: "Corporate Training Solutions", path: "/academy/corporate-training-solutions" }
+      // ]
     },
     { name: "Publication", path: "/publication" },
     { name: "Contact Us", path: "/contact-us" },
