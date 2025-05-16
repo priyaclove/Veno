@@ -91,7 +91,7 @@ export default function AboutUs() {
             className="relative h-80 rounded-xl overflow-hidden shadow-lg"
           >
             <Image 
-              src="/team-work.jpg" 
+              src="/about-us.jpg" 
               alt="Our team working together"
               fill
               className="object-cover"
@@ -116,7 +116,7 @@ export default function AboutUs() {
             className="relative h-80 rounded-xl overflow-hidden shadow-lg order-2 md:order-1"
           >
             <Image 
-              src="/about-team.png" 
+              src="/our-story.png" 
               alt="Our consultative approach"
               fill
               className="object-cover"

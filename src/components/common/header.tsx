@@ -34,13 +34,13 @@ const navData = {
   },
     { 
       name: "Payroll", 
-      path: "/payroll"
-      // subItems: [
-      //   { name: "Payroll Processing", path: "/payroll/payroll-processing" },
-      //   { name: "EPF/SOCSO Compliance", path: "/payroll/epf-socso-compliance" },
-      //   { name: "Payslip Management", path: "/payroll/payslip-management" },
-      //   { name: "Tax Filing Services", path: "/payroll/tax-filing-services" }
-      // ]
+      path: "/payroll",
+      subItems: [
+        { name: "Payroll Processing", path: "/payroll/payroll-processing" },
+        { name: "EPF/SOCSO Compliance", path: "/payroll/epf-socso-compliance" },
+        { name: "Payslip Management", path: "/payroll/payslip-management" },
+        { name: "Tax Filing Services", path: "/payroll/tax-filing-services" }
+      ]
     },
     { 
       name: "Talent Acquisition", 
